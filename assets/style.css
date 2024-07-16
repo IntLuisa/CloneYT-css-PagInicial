@@ -1,0 +1,76 @@
+@import url(./global.css);
+header{
+    background-color: black;
+    padding: 20px;
+    position: sticky;
+    left:0%; top:0%;
+}
+main{
+    display: grid;
+    left: 10%;
+}
+nav{
+    padding: 10px;
+}
+span{
+    color:red;
+    font-weight: 900;
+    font-size: 2rem;
+}
+.recomendacao{
+    margin: 20px;
+}
+.VIDEOS{
+    margin: 10px;
+    margin-bottom: 25px;
+    padding:1px;
+    align-content: end;
+    font-size: large;
+    display: inline-block;
+    width: 350px;
+    height: 300px;
+    background-color:#f8b1b136;
+    text-align:center;
+    border-radius: 15px;
+}
+.shtV{
+    margin: 10px;
+    margin-bottom: 25px;
+    padding:1px;
+    align-content: end;
+    font-size: large;
+    display: inline-block;
+    width: 200px;
+    height: 400px;
+    background-color:#f8b1b136;
+    text-align:center;
+    border-radius: 15px;
+}
+.recomendacao{
+    display: inline-block;
+    background-color: grey;
+    text-align: center;
+    width:auto;
+    padding: 5px;
+    height: 15px;
+    border-radius: 5px;
+}
+#pontinhos{
+    text-decoration: none;
+    font-size: 30px;
+}
+#menuLateral{
+    width: auto;
+    height: 100%;
+    display:inline-block;
+    background-color: blue;
+    position: absolute;
+    left:0%;
+}
+#overflow1{
+    overflow: scroll;
+    height: 50px;
+}
+#scrolavel{
+    overflow: hidden;
+}
